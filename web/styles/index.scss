@@ -1,0 +1,83 @@
+:global {
+    // global style here   
+     
+       
+    
+    .Input-Text{
+        height: 40px;
+        width: 90%;
+        border: 2px solid #F5F2FB;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        padding: 9px;
+        margin:5px;
+        outline: none;
+    }   
+    
+    .Input-Text:focus {
+        border-color: #242526;
+    }
+    .logo{
+        width: 180px; 
+        margin: auto;       
+        display: block;
+       }
+
+    .large-box{
+        box-sizing: border-box;
+        height: 459px;
+        width: 350px;
+        background-color: ghostwhite;
+        box-shadow: 2px 2px 5px grey;
+        padding:5%;        
+    }
+
+    .right{
+        float: right;
+    }
+
+    .bluetext{
+        color:#00BFFF;     
+        
+    }
+
+    .bluetext:hover {
+        text-decoration: underline;
+    }
+
+    .outner{      
+        padding: 10%;
+        background-color: #F6F3FB;
+       
+    }
+
+    .buttonblue {
+        background-color: deepskyblue;
+        margin: auto;       
+        display: block;
+        border: none;
+        border-radius: 5px;
+        height: 41px;
+        width: 70%;
+        font-size: 17px;
+        color: white;
+    }
+    
+    .redtext {
+        height: 25px;
+        color:red;
+        font-size: 15px;
+    }
+
+    .logo-spin {
+        animation: App-logo-spin infinite 3s linear;
+    }
+    @keyframes App-logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}
